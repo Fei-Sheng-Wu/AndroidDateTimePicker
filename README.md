@@ -3,7 +3,7 @@
 [![Min SDK](https://img.shields.io/badge/Min%20SDK-5.0-green.svg?style=flat-square)](https://developer.android.com/studio/releases/platforms#5.0)
 [![Lincense](https://img.shields.io/badge/Lincense-Apache%202.0%20License-orange.svg?style=flat-square)](https://github.com/Fei-Sheng-Wu/AndroidDateTimePicker/blob/1.0.0/LICENSE.txt)
 
-> A date & time picker component for Android. Light themed design, fullscreen picker dialog, and native Material components. Support setting default selected date & time, and selection result callback handler. Support custom button icon, title text, and colors. Minimum of SDK 5.0.
+> A date & time picker component for Android. Light themed design, fullscreen picker dialog, and native Material components only. Support setting default selected date & time, and selection result callback handler. Support custom button icon, title text, and colors. Minimum dependency of SDK 5.0.
 
 ## Dependencies
 
@@ -18,8 +18,8 @@
 
 ## Preview
 
-![DateTimePicker Select Date](https://github.com/Fei-Sheng-Wu/AndroidDateTimePicker/blob/1.0.0/Screenshot/DateTimePicker%20Select%20Date.png)
-![DateTimePicker Select Time](https://github.com/Fei-Sheng-Wu/AndroidDateTimePicker/blob/1.0.0/Screenshot/DateTimePicker%20Select%20Time.png)
+![DateTimePicker Select Date](https://github.com/Fei-Sheng-Wu/AndroidDateTimePicker/blob/792d5f606c38348cc9a916268959a941ef347538/Screenshot/DateTimePicker%20Select%20Date.png)
+![DateTimePicker Select Time](https://github.com/Fei-Sheng-Wu/AndroidDateTimePicker/blob/792d5f606c38348cc9a916268959a941ef347538/Screenshot/DateTimePicker%20Select%20Time.png)
 
 ## How to Use
 
