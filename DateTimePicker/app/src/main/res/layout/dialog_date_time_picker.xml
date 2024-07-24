@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:clickable="true"
+    android:focusable="true">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        app:liftOnScroll="true">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:menu="@menu/toolbar_next"
+            app:navigationContentDescription="@string/action_close"
+            app:navigationIcon="@drawable/ic_close_24"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            app:title="@string/title_select_date" />
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <ViewSwitcher
+        android:id="@+id/view_switcher"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:inAnimation="@anim/nav_default_enter_anim"
+        android:outAnimation="@anim/nav_default_exit_anim"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <DatePicker
+                android:id="@+id/date_picker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:headerBackground="@color/colorPrimary"
+                android:headerDayOfMonthTextAppearance="@style/TextAppearance.MaterialComponents.Headline2"
+                android:headerMonthTextAppearance="@style/TextAppearance.MaterialComponents.Headline2"
+                android:headerYearTextAppearance="@style/TextAppearance.MaterialComponents.Subtitle1"
+                android:theme="@style/AppTheme.Components" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TimePicker
+                android:id="@+id/time_picker"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:headerBackground="@color/colorPrimary"
+                android:headerTimeTextAppearance="@style/TextAppearance.MaterialComponents.Headline2"
+                android:theme="@style/AppTheme.Components"
+                android:timePickerMode="clock" />
+        </FrameLayout>
+    </ViewSwitcher>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
