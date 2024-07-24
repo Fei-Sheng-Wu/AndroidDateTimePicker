@@ -1,7 +1,7 @@
 # AndroidDateTimePicker
 
 [![Min SDK](https://img.shields.io/badge/Min%20SDK-5.0-green.svg?style=flat-square)](https://developer.android.com/studio/releases/platforms#5.0)
-[![Lincense](https://img.shields.io/badge/Lincense-Apache%202.0%20License-orange.svg?style=flat-square)](https://github.com/Fei-Sheng-Wu/AndroidDateTimePicker/blob/1.0.0/LICENSE.txt)
+[![Lincense](https://img.shields.io/badge/Lincense-Apache%202.0%20License-orange.svg?style=flat-square)](https://github.com/Fei-Sheng-Wu/AndroidDateTimePicker/blob/master/LICENSE.txt)
 
 > A date & time picker component for Android. Light themed design, fullscreen picker dialog, and native Material components only. Support setting default selected date & time, and selection result callback handler. Support custom button icon, title text, and colors. Minimum dependency of SDK 5.0.
 
@@ -18,8 +18,8 @@
 
 ## Preview
 
-![DateTimePicker Select Date](https://github.com/Fei-Sheng-Wu/AndroidDateTimePicker/blob/792d5f606c38348cc9a916268959a941ef347538/Screenshot/DateTimePicker%20Select%20Date.png)
-![DateTimePicker Select Time](https://github.com/Fei-Sheng-Wu/AndroidDateTimePicker/blob/792d5f606c38348cc9a916268959a941ef347538/Screenshot/DateTimePicker%20Select%20Time.png)
+![DateTimePicker Select Date](https://github.com/Fei-Sheng-Wu/AndroidDateTimePicker/blob/b56714e055ce0a77c213b36f8919d3acb4591f90/Screenshot/DateTimePicker%20Select%20Date.png)
+![DateTimePicker Select Time](https://github.com/Fei-Sheng-Wu/AndroidDateTimePicker/blob/b56714e055ce0a77c213b36f8919d3acb4591f90/Screenshot/DateTimePicker%20Select%20Time.png)
 
 ## How to Use
 
@@ -60,11 +60,11 @@ getSupportFragmentManager().beginTransaction()
 (Optional) Add these drawables to the drawable directory to change button icons.
 
 |Drawable Name|Used For|Icon Size|
-|--------   |--------   |--------   |
+|---|---|---|
 |ic_close_24.xml|Close picker dialog for canceling selection button. |24dp x 24dp|
 |ic_next_24.xml|Switch from date selection to time selection button.|24dp x 24dp|
 |ic_submit_24.xml|Submit selected result button.|24dp x 24dp|
 
 ## License
 
-This project is under the [Apache 2.0 License](https://github.com/Fei-Sheng-Wu/AndroidDateTimePicker/blob/1.0.0/LICENSE.txt).
+This project is under the [Apache 2.0 License](https://github.com/Fei-Sheng-Wu/AndroidDateTimePicker/blob/master/LICENSE.txt).
